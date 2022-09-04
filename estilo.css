@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,500&family=Rowdies:wght@300;400&display=swap');
+
+@import url('https://db.onlinewebfonts.com/c/50cd2aad9c8f35800bb6beac3ad42f16?family=Azonix');
+
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #031926;
+    color: white;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+#logo {
+    width: 100px;
+    position: absolute;
+    top: 1px;
+    margin-left: 5%;   
+
+}
+
+@font-face{
+    font-family: "Azonix"; 
+    src: url("//db.onlinewebfonts.com/t/50cd2aad9c8f35800bb6beac3ad42f16.eot");
+}
+
+#menu {
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin: 0;
+
+}
+
+li {
+    float: left;
+    padding: 20 10 20 10;
+}
+li:hover {
+    background-color: #0b3d4f;
+}
+#imagem_fundo {
+    background: url(img/laguin.png) ;
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+}
+
+
+#titulo {
+    color: white;
+    padding-top: 20%;
+    font-size: 70px;
+    line-height: 0.6;
+    font-family: 'Azonix', serif;
+
+
+    
+}
+#subtitulo {
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-top: 3px solid white;
+    font-family: 'Azonix', serif;
+}
+#acao {
+    color: white;
+    border: 1px white solid;
+    padding: 10px 20px 10px 20px ;
+}
+.icone {
+    width: 51px;
+}
+section {
+    padding: 20px;
+    float: left;
+}
+
+.section2 {
+    float: right;
+}
+
+.destaque {
+    background: url(img/darkbao.jpg) ;
+    height: 90%;
+    width: 100%;
+    text-align: center;
+    background-size: cover;
+    border-top: 5px solid rgb(0, 0, 0);
+    font-family: 'Azonix', serif;
+}
+
+.destaque2 {
+    background: url(img/bonitin.jpg) ;
+    background-size: cover;
+    height: 200%;
+    width: 100%;
+    text-align: center;
+    border-top: 5px solid rgb(0, 0, 0);
+    font-family: 'Azonix', serif;
+}
+
+.destaque6 {
+    background: url(img/receba.jpg) ;
+    height: 230%;
+    width: 100%;
+    text-align: center;
+    background-size: cover;
+    border-top: 5px solid rgb(0, 0, 0);
+    font-family: 'Azonix', serif;
+}
+
+.imgeco {
+    width: 90%;
+    height: 30%;
+}
+
+.coluna {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+}
+.dois {
+    width: 40%;
+}
+.quatro {
+    width: 15%;
+}
+.tres {
+    width: 29%;
+    padding: 0 2%;
+}
+
+.justificado {
+    text-align: justify;
+}
+.centralizado {
+    text-align: center;
+}
+footer {
+    background: url(img/azuzin.jpg) ;
+    float: left;
+    width: 100%;
+    height: 20%;
+    color: white;
+    font-family: 'Azonix', serif;
+}
+
+@media all and (max-width: 768px) {
+   #menu {
+       visibility: hidden;
+   } 
+   .coluna, .dois, .tres, .quatro {
+        display: block;   
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+        font-family: 'Azonix', serif;
+   }
+   #logodiv {
+       width: 100%;
+       position: relative;
+       text-align: center;
+       padding: 0px;
+       
+   }
+   #logo {
+       margin-left: 0px;
+       transform: translateX(-50%);
+   }
+
+}
